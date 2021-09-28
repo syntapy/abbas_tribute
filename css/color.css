@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+
+header {
+}
+
+div.header_vbar {
+    border-color: green;
+    border-style: solid;
+}
+
+div.header_text {
+    border-color: red;
+    border-style: solid;
+}
+
+div#title {
+    border-color: black;
+    border-style: solid;
+}
+
+div#subtitle {
+    border-color: black;
+    border-style: solid;
+}
+
+figure {
+    border-color: green;
+    border-style: solid;
+}
+
+img {
+    border-color: blue;
+    border-style: solid;
+}
+
+figcaption {
+}
+
+main {
+    border-color: blue;
+    border-style: solid;
+}
+/*div.section {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    border: 5vw solid green;
+}*/
+
+

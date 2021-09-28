@@ -1,18 +1,16 @@
 body {
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0vw;
     padding: 0vw 10vw 0vw 10vw;
-    font-size: 4vw;
 }
 
 header {
 }
 
 div.header_vbar {
-    border: 0vw solid green;
+    border: 0vw;
 }
 
 div.header_text {
@@ -22,37 +20,35 @@ div.header_text {
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    border: 0.25vw solid red;
+    border: 0.5vw;
 }
 
 div#title {
     font-size: 6.70em;
     font-size-adjust: 0.2;
-    border: 0.25vw solid black;
     width: 100%;
-    text-align: center;
+    border: 0.5vw;
 }
 
 div#subtitle {
     font-size: 1.5em;
-    border: 0vw solid black;
     width: 100%;
-    text-align: right;
     padding: 0vw 2.0vw 0vw 0vw;
+    border: 0vw;
 }
 
 figure {
     box-sizing: border-box;
     height: auto;
     width: 100%;
-    border: 0vw solid green;
     margin: 0vw;
+    border: 0vw;
 }
 
 img {
     box-sizing: border-box;
     width: 100%;
-    border: 0vw solid blue;
+    border: 0vw;
 }
 
 figcaption {
@@ -62,9 +58,8 @@ figcaption {
     text-align: left;
 }
 
-
 main {
-    border: 0vw solid blue;
+    border: 0vw;
 }
 /*div.section {
     display: flex;
