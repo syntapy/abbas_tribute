@@ -5,21 +5,24 @@ body {
 header {
 }
 
-div.header_vbar {
+.header_text {
 }
 
-div.header_text {
+#title {
+    font-size: 2.64em;
+    text-align: justify;
+    line-height: 0.7;
 }
 
-div#title {
-    font-size: 6.70em;
-    font-size-adjust: 0.2;
-    text-align: center;
-}
+/*#title > span.spacing {
 
-div#subtitle {
-    font-size: 1.5em;
+}*/
+
+#subtitle {
+    font-size: 1.0em;
+    display: inline-block;
     text-align: right;
+    line-height: 0.7;
 }
 
 figure {
@@ -31,7 +34,6 @@ img {
 figcaption {
     text-align: left;
 }
-
 
 main {
 }

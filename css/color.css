@@ -3,24 +3,21 @@ body {
 }
 
 header {
-}
-
-div.header_vbar {
     border-color: green;
     border-style: solid;
 }
 
-div.header_text {
+.header_text {
     border-color: red;
     border-style: solid;
 }
 
-div#title {
+#title {
     border-color: black;
     border-style: solid;
 }
 
-div#subtitle {
+#subtitle {
     border-color: black;
     border-style: solid;
 }
@@ -48,5 +45,3 @@ main {
     flex-direction: column;
     border: 5vw solid green;
 }*/
-
-
