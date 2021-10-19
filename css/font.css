@@ -15,7 +15,7 @@ header {
 #title {
     font-size: 2.22em;
     text-align: justify;
-    line-height: 0.7;
+    line-height: 1.0;
 }
 
 /*#title > span.spacing {
@@ -26,7 +26,7 @@ header {
     font-size: 1.0em;
     display: inline-block;
     text-align: right;
-    line-height: 0.7;
+    line-height: 1.0;
 }
 
 figure {
