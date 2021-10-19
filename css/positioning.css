@@ -21,12 +21,12 @@ header {
 
 .header_text {
     border: 0vw;
-    padding: 0vw 0vw 4vw 0vw;
+    padding: 0vw 0vw 0vw 0vw;
 }
 
 #title {
     width: auto;
-    border: 0.01vw;
+    border: 0.0vw;
     margin: 0vw;
 }
 
@@ -40,7 +40,7 @@ header {
     position: relative;
     width: 100%;
     font-size: 0.7em;
-    border: 0.01vw;
+    border: 0.0vw;
     margin: 0vw;
 }
 
@@ -49,7 +49,7 @@ figure {
     width: 100%;
     margin: 0vw;
     padding: 0vw;
-    border: 0.01vw;
+    border: 0.0vw;
 }
 
 img {
