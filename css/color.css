@@ -10,6 +10,7 @@ header {
 .header_text {
     border-color: red;
     border-style: solid;
+    color: #B22512;
 }
 
 #title {
@@ -39,9 +40,8 @@ main {
     border-color: blue;
     border-style: solid;
 }
-/*div.section {
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-    border: 5vw solid green;
-}*/
+
+h1 {
+    border-color: black;
+    border-style: solid;
+}

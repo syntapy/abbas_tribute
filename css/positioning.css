@@ -68,9 +68,13 @@ main {
     font-size: 0.7em;
     border: 0vw;
 }
-/*div.section {
+
+h1 {
     display: flex;
-    align-items: left;
-    flex-direction: column;
-    border: 5vw solid green;
-}*/
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: 0vw solid black;
+    border-bottom: 0vw solid black;
+    border-left: 0vw solid black;
+    border-top: 1vw solid black;
+}
