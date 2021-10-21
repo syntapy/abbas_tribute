@@ -11,12 +11,13 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0vw;
-    padding: 0vw 10vw 0vw 10vw;
+    padding: 0vw 5vw 0vw 5vw;
+    border: 0.1vw solid black;
 }
 
 header {
     padding: 8vw;
-    border: 0vw;
+    border: 0vw solid black;
 }
 
 .header_text {
@@ -29,12 +30,6 @@ header {
     border: 0.0vw;
     margin: 0vw;
 }
-
-/*span#subtitle::before {
-    position: relative;
-    content: "\a";
-    white-space: pre;
-}*/
 
 #subtitle {
     position: relative;
@@ -66,7 +61,7 @@ figcaption {
 
 main {
     font-size: 0.7em;
-    border: 0vw;
+    border: 0vw solid black;
 }
 
 h1 {
