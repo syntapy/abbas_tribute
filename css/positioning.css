@@ -68,10 +68,8 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    border-right: 0vw solid black;
-    border-bottom: 0vw solid black;
-    border-left: 0vw solid black;
-    border-top: 1vw solid black;
+    border-width: 0vw;
+    border-top-width: 1.1vw;
 }
 
 h1 > span {
