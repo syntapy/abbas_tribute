@@ -70,8 +70,31 @@ h1 {
     justify-content: space-between;
     border-width: 0vw;
     border-top-width: 1.1vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 h1 > span {
     display: block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+h1 > span:nth-child(1) {
+    margin-top: -1vw;
+}
+
+main > ul {
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    text-indent: -2vw;
+}
+
+li:before {
+    content: "- ";
 }
