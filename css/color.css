@@ -41,6 +41,21 @@ main {
     border-style: solid;
 }
 
+ul {
+    border-color: black;
+    border-style: solid;
+}
+
+ul > li {
+    border-color: black;
+    border-style: solid;
+}
+
+ul > li:before {
+    border-color: black;
+    border-style: solid;
+}
+
 h1 {
     border-color: #666;
     border-style: solid;

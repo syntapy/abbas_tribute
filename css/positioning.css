@@ -76,12 +76,23 @@ h1 {
 
 h1 > span {
     display: block;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 0px;
+    line-height: 1.2;
 }
 
-h1 > span:nth-child(1) {
-    margin-top: -1vw;
+h1 > span:last-child {
+    margin-top: 1vw;
+}
+
+h1 > span:first-child {
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+ul {
+    padding-left: 0vw;
+    border-width: 0vw;
 }
 
 main > ul {
@@ -89,12 +100,15 @@ main > ul {
     list-style-type: none;
 }
 
-li {
+ul > li {
     padding: 0;
     margin: 0;
-    text-indent: -2vw;
+    margin-bottom: 2.0vw;
+    text-indent: 0vw;
+    border-width: 0vw;
+    line-height: 1.1;
 }
 
-li:before {
-    content: "- ";
+ul > li:last-child {
+    margin-bottom: 6.0vw;
 }
