@@ -10,6 +10,7 @@ header {
 }
 
 .header_text {
+    font-size: 4vw;
 }
 
 #title {
@@ -35,16 +36,12 @@ figcaption {
     text-align: left;
 }
 
-main {
-    font-size: 2vw;
-}
-
-main * {
-    font-size: inherit;
-}
-
 main h1 span {
-    font-size: 3.0vw;
+    font-size: 4.5vw;
+}
+
+ul li{
+    font-size: 4.0vw;
 }
 
 div.section {
