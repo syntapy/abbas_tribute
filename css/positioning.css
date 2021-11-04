@@ -17,6 +17,7 @@ body {
 
 header {
     padding: 8vw;
+    padding-bottom: 0;
     border: 0vw solid black;
 }
 
