@@ -1,124 +1,123 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0vw;
-    padding: 0vw 5vw 0vw 5vw;
-    border: 0.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0 5vw;
+  border: 0.1vw solid black;
 }
 
 header {
-    padding: 8vw;
-    padding-bottom: 0;
-    border: 0vw solid black;
+  padding: 8vw;
+  padding-bottom: 0;
+  border: 0 solid black;
 }
 
-.header_text {
-    border: 0vw;
-    padding: 0vw 0vw 4vw 0vw;
+.header-text {
+  border: 0;
+  padding: 0 0 4vw;
 }
 
 #title {
-    width: auto;
-    border: 0.0vw;
-    margin: 0vw;
+  width: auto;
+  border: 0;
+  margin: 0;
 }
 
 #subtitle {
-    position: relative;
-    width: 100%;
-    font-size: 0.7em;
-    border: 0.0vw;
-    margin: 0vw;
+  position: relative;
+  width: 100%;
+  font-size: 0.7em;
+  border: 0;
+  margin: 0;
 }
 
 figure {
-    height: auto;
-    width: 100%;
-    margin: 0vw;
-    padding: 0vw;
-    border: 0.0vw;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 img {
-    width: 100%;
-    border: 0vw;
+  width: 100%;
+  border: 0;
 }
 
 figcaption {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
 }
 
 main {
-    font-size: 0.7em;
-    border: 0vw solid black;
+  font-size: 0.7em;
+  border: 0 solid black;
 }
 
 h1 {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    border-width: 0vw;
-    border-top-width: 1.1vw;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  border-width: 0;
+  border-top-width: 1.1vw;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 h1 > span {
-    display: block;
-    margin: 0;
-    padding: 0px;
-    line-height: 1.2;
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
 }
 
 h1 > span:last-child {
-    margin-top: 1vw;
+  margin-top: 1vw;
 }
 
 h1 > span:first-child {
-    margin-top: 0vw;
-    margin-bottom: 2vw;
+  margin-top: 0;
+  margin-bottom: 2vw;
 }
 
 ul {
-    padding-left: 0vw;
-    border-width: 0vw;
+  padding-left: 0;
+  border-width: 0;
 }
 
 main > ul {
-    margin-top: 0px;
+  margin-top: 0;
 }
 
 ul > li {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 2.0vw;
-    list-style-type: none;
-    text-indent: 0vw;
-    border-width: 0vw;
-    line-height: 1.1;
-}
-
-ul > li:last-child {
-    margin-bottom: 6.0vw;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2vw;
+  list-style-type: none;
+  text-indent: 0;
+  border-width: 0;
+  line-height: 1.1;
 }
 
 ul > ul > li {
-    list-style-type: "- ";
-    margin: 0;
-    margin-left: 4vw;
+  list-style-type: "- ";
+  margin: 0;
+  margin-left: 4vw;
 }
 
-li::before {
+ul > li:last-child {
+  margin-bottom: 6vw;
 }
