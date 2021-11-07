@@ -27,12 +27,24 @@ Todo
 		- 1536 x 864
 		- 1920 x 1080
 - [ ] Test Screen Sizes
-		- [x] 320 x 480
+		- [ ] 320 x 480
+				- [x] Portrait
+				- [ ] Landscape
 		- [ ] 360 x 640
+				- [x] Portrait
+				- [ ] Landscape
 		- [ ] 360 x 720
+				- [x] Portrait
+				- [ ] Landscape
 		- [ ] 360 x 780
+				- [x] Portrait
+				- [ ] Landscape
 		- [ ] 375 x 812
+				- [x] Portrait
+				- [ ] Landscape
 		- [ ] 414 x 736
+				- [x] Portrait
+				- [ ] Landscape
 		- [ ] 768 x 1024
 		- [ ] 1366 x 768
 		- [ ] 1440 x 900
