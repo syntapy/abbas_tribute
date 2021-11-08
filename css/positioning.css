@@ -20,19 +20,15 @@ header {
   margin: 4vmin;
 }
 
-.header-text {
-}
-
-#title {
+.header-title {
   width: auto;
   margin: auto;
   padding: 0 0vmin 4vmin 0;
 }
 
-#subtitle {
+.subtitle {
   position: relative;
   width: 100%;
-  font-size: 0.7em;
 }
 
 figure {
@@ -112,9 +108,17 @@ ul > li:last-child {
 }
 
 @media (orientation: portrait) {
+  body {
+    margin-top: 4vh;
+  }
+
   header {
     display: flex;
     flex-direction: column;
+  }
+
+  .header-quote {
+    margin-top: 3vh;
   }
 
   .item {
@@ -131,10 +135,15 @@ ul > li:last-child {
 }
 
 @media (orientation: landscape) {
+  body {
+    margin-top: 6vh;
+  }
+
   header {
     display: grid;
     grid-template-columns: 1fr 0.8fr;
     grid-gap: 2vmin;
+    margin-bottom: 10vh;
   }
 
   .item {
@@ -145,6 +154,7 @@ ul > li:last-child {
     grid-column: 1;
     grid-row: 1;
     margin-right: 4vmin;
+    margin-top: 6vh;
   }
 
   .b {
