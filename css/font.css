@@ -58,10 +58,14 @@ ul li {
   }
 
   .quote {
-    font-size: 0.7em;
   }
 
   figcaption {
     text-align: left;
   }
+}
+
+.quote {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.05em;
 }
