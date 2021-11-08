@@ -2,41 +2,66 @@ html {
   font-family: Gotu, sans-serif;
 }
 
+header {
+  font-size: 4.5vmin;
+  padding: 0 2vmin;
+}
+
 body {
-  font-size: 4vw;
-}
-
-.header-text {
-  font-size: 4vw;
-}
-
-#title {
-  font-size: 2.57em;
-  text-align: justify;
-  line-height: 1;
-}
-
-#subtitle {
-  font-size: 1em;
-  display: inline-block;
-  text-align: right;
-  line-height: 1;
-}
-
-figcaption {
-  text-align: left;
-}
-
-main {
-  padding: 0;
-  margin: 0;
-  margin-top: 0;
+  font-size: 4vmin;
 }
 
 main h1 span {
-  font-size: 4.5vw;
+  font-size: 4.5vmin;
 }
 
 ul li {
-  font-size: 4vw;
+  font-size: 4vmin;
+}
+
+@media (orientation: portrait) {
+  #title {
+    font-size: 2.429em;
+    text-align: justify;
+    line-height: 1.2;
+    border: 0vmin black solid;
+  }
+
+  #subtitle {
+    font-size: 1em;
+    display: inline-block;
+    text-align: right;
+    line-height: 1.2;
+  }
+
+  #quote {
+    
+  }
+
+  figcaption {
+    text-align: left;
+  }
+}
+
+@media (orientation: landscape) {
+  #title {
+    font-size: 2.10em;
+    text-align: center;
+    line-height: 1;
+  }
+
+  #subtitle {
+    font-size: 1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .quote {
+    font-size: 0.7em;
+  }
+
+  figcaption {
+    text-align: left;
+  }
 }

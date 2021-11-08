@@ -2,55 +2,8 @@ body {
   background-color: #f6f6f6;
 }
 
-header {
-  border-color: green;
-  border-style: solid;
-}
-
 .header-text {
-  border-color: red;
-  border-style: solid;
   color: #b22512;
-}
-
-#title {
-  border-color: black;
-  border-style: solid;
-}
-
-#subtitle {
-  border-color: black;
-  border-style: solid;
-}
-
-figure {
-  border-color: green;
-  border-style: solid;
-}
-
-img {
-  border-color: blue;
-  border-style: solid;
-}
-
-main {
-  border-color: blue;
-  border-style: solid;
-}
-
-ul {
-  border-color: black;
-  border-style: solid;
-}
-
-ul > li {
-  border-color: black;
-  border-style: solid;
-}
-
-ul > li::before {
-  border-color: black;
-  border-style: solid;
 }
 
 h1 {
