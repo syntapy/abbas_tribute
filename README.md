@@ -36,13 +36,22 @@ Todo
 		- [ ] 360 x 720
 				- [ ] Portrait
 				- [ ] Landscape
+		- [ ] 360 x 760
+				- [ ] Portrait
+				- [ ] Landscape
 		- [ ] 360 x 780
+				- [ ] Portrait
+				- [ ] Landscape
+		- [ ] 375 x 667
 				- [ ] Portrait
 				- [ ] Landscape
 		- [ ] 375 x 812
 				- [ ] Portrait
 				- [ ] Landscape
 		- [ ] 414 x 736
+				- [ ] Portrait
+				- [ ] Landscape
+		- [ ] 414 x 896
 				- [ ] Portrait
 				- [ ] Landscape
 		- [ ] 768 x 1024
