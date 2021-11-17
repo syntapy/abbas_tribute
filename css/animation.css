@@ -1,0 +1,27 @@
+@keyframes body_fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fadein {
+    animation-name: body_fadein;
+  }
+
+  .header-title {
+    animation-duration: 4s;
+  }
+
+  figure {
+    animation-duration: 4s;
+  }
+
+  .header-quote {
+    animation-duration: 3s;
+  }
+}
