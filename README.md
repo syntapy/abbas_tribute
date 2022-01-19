@@ -1,7 +1,7 @@
 Intro
 =====
 
-My first CSS project for [freecodecamp](freecodecamp.org): A tribute to Abbas Effendi (also known as Abdul-Baha), Who led the Baha'i community and taught that we are happier when we appreciate diversity and act with compassion
+My first CSS project for freecodecamp: A tribute to Abbas Effendi (also known as Abdul-Baha), Who led the Baha'i community and taught that we are happier when we appreciate diversity and act with compassion
 
 View on [Github Pages](https://syntapy.github.io/fcc_tribute/)
 
