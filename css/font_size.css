@@ -1,0 +1,39 @@
+@media (min-height: 600px) {
+  header {
+    font-size: 5rem;
+  }
+
+  main {
+    3.5rem;
+  }
+}
+
+@media (max-height: 600px) {
+  header {
+    font-size: 2rem;
+  }
+
+  main {
+    1.5rem
+  }
+}
+
+@media (orientation: portrait) {
+  .subtitle {
+    font-size: 1em;
+  }
+
+  .quote {
+    font-size: 0.5em;
+  }
+}
+
+@media (orientation: landscape) {
+  .subtitle {
+    font-size: 0.9em;
+  }
+
+  .quote {
+    font-size: 0.6em;
+  }
+}
