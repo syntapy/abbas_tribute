@@ -1,10 +1,12 @@
 html {
   font-family: Gotu, sans-serif;
+  box-sizing: border-box;
 }
 
 header {
   font-size: 4.5vmin;
-  padding: 0 2vmin;
+  padding: 0 2vmin auto 2vmin;
+  min-height: 100%;
 }
 
 body {
@@ -23,6 +25,23 @@ ul li {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.attribution::before {
+  content: "—";
+  padding-left: auto;
+  margin-left: auto;
+}
+
+.attribution {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+  width: 100%;
+  margin-right: 2rem;
+  padding-right: 2rem;
+  margin-top: 1.5rem;
+}
+
+
 @media (orientation: portrait) {
   .header-title {
     line-height: 1.2;
@@ -31,7 +50,7 @@ ul li {
 
   .title {
     font-size: 2.429em;
-    text-align: justify;
+    text-align: center;
   }
 
   .subtitle {
@@ -41,18 +60,16 @@ ul li {
   }
 
   .header-quote {
-    text-align: justify;
+    text-align: left;
   }
 
   .quote {
     font-size: 1.05em;
-    text-align: justify;
+    text-align: left;
   }
 
   .attribution {
-    display: inline-block;
     font-size: 0.8em;
-    text-align: right;
   }
 
   /*div > span.subelement {
@@ -87,13 +104,23 @@ ul li {
 
   .quote {
     font-size: 1.05em;
-    text-align: justify;
+    text-align: left;
+  }
+
+  .attribution::before {
+    content: "—";
+    width: 100%;
   }
 
   .attribution {
     display: inline-block;
+    box-sizing: border-box;
     font-size: 0.7em;
-    text-align: center;
+    text-align: right;
+    width: 100%;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    margin-top: 1.5rem;
   }
 
   /*div > span.subelement {
