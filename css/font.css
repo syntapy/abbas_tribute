@@ -14,17 +14,24 @@ header {
 .header-quote {
 }
 
+@media (min-height: 600px) {
+  header {
+    font-size: 5rem;
+  }
+
+  main {
+    3.5rem;
+  }
+}
+
 @media (max-height: 600px) {
   header {
+    font-size: 2rem;
   }
-}
 
-@media (max-height: 1024px) {
-  header {
+  main {
+    1.5rem
   }
-}
-
-body {
 }
 
 main h1 span {
@@ -63,6 +70,7 @@ ul li {
   }
 
   .subtitle {
+    font-size: 1em;
     display: inline-block;
     text-align: right;
   }
@@ -73,6 +81,7 @@ ul li {
 
   .quote {
     text-align: left;
+    font-size: 0.8em;
   }
 
   /*div > span.subelement {
@@ -96,6 +105,7 @@ ul li {
 
   .subtitle {
     display: inline-block;
+    font-size: 0.9em;
   }
 
   .header-quote {
@@ -104,6 +114,7 @@ ul li {
 
   .quote {
     text-align: left;
+    font-size: 0.8em;
   }
 
   .attribution::before {
