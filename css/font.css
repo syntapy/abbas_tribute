@@ -4,21 +4,33 @@ html {
 }
 
 header {
-  font-size: 4.5vmin;
-  padding: 0 2vmin auto 2vmin;
+  padding: 0 1rem auto 1rem;
   min-height: 100%;
 }
 
+.header-title {
+}
+
+.header-quote {
+}
+
+@media (max-height: 600px) {
+  header {
+  }
+}
+
+@media (max-height: 1024px) {
+  header {
+  }
+}
+
 body {
-  font-size: 4vmin;
 }
 
 main h1 span {
-  font-size: 4.5vmin;
 }
 
 ul li {
-  font-size: 4vmin;
 }
 
 .quote {
@@ -36,26 +48,22 @@ ul li {
   box-sizing: border-box;
   text-align: right;
   width: 100%;
-  margin-right: 2rem;
-  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
   margin-top: 1.5rem;
 }
-
 
 @media (orientation: portrait) {
   .header-title {
     line-height: 1.2;
-    border: 0vmin black solid;
   }
 
   .title {
-    font-size: 2.429em;
     text-align: center;
   }
 
   .subtitle {
     display: inline-block;
-    font-size: 0.7em;
     text-align: right;
   }
 
@@ -64,12 +72,7 @@ ul li {
   }
 
   .quote {
-    font-size: 1.05em;
     text-align: left;
-  }
-
-  .attribution {
-    font-size: 0.8em;
   }
 
   /*div > span.subelement {
@@ -85,17 +88,14 @@ ul li {
 
 @media (orientation: landscape) {
   .header-title {
-    line-height: 1.2;
   }
 
   .title {
-    font-size: 2.10em;
     text-align: center;
   }
 
   .subtitle {
     display: inline-block;
-    font-size: 0.7em;
   }
 
   .header-quote {
@@ -103,7 +103,6 @@ ul li {
   }
 
   .quote {
-    font-size: 1.05em;
     text-align: left;
   }
 
@@ -115,11 +114,10 @@ ul li {
   .attribution {
     display: inline-block;
     box-sizing: border-box;
-    font-size: 0.7em;
     text-align: right;
     width: 100%;
-    margin-right: 2rem;
-    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
     margin-top: 1.5rem;
   }
 
