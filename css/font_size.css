@@ -1,40 +1,28 @@
-@media (min-height: 800px) {
-  @media (orientation: portrait) {
+@media (orientation: portrait) {
+  @media (min-height: 800px) {
+
     header {
       font-size: 5.0rem;
     }
+
     .title {
       font-size: 1.0em;
     }
+
     .subtitle {
       font-size: 0.6em;
     }
+
     .quote{
       font-size: 0.5em;
     }
+
     .attribution {
       font-size: 0.8em;
     }
   }
 
-  @media (orientation: landscape) {
-    header {
-      font-size: 3.0rem;
-    }
-    .title {
-      font-size: 1.0em;
-    }
-    .subtitle {
-      font-size: 1.0em;
-    }
-    .header-quote {
-      font-size: 1.0em;
-    }
-  }
-}
-
-@media (max-height: 800px) {
-  @media (orientation: portrait) {
+  @media (max-height: 800px) {
     header {
       font-size: 2rem;
     }
@@ -59,18 +47,21 @@
       1.5rem
     }
   }
+}
 
-  @media (orientation: landscape) {
+@media (orientation: landscape) {
+  @media (min-height: 800px) {
+
     header {
-      font-size: 2.5rem;
+      font-size: 4.0rem;
     }
 
     .title {
       font-size: 1.0em;
     }
-    
+
     .subtitle {
-      font-size: 0.6em;
+      font-size: 0.9em;
     }
 
     .quote {
@@ -78,11 +69,29 @@
     }
 
     .attributon {
-      font-size: 0.8em;
+      font-size: 0.5em;
+    }
+  }
+
+  @media (max-height: 800px) {
+    header {
+      font-size: 3.0rem;
     }
 
-    main {
-      1.5rem
+    .title {
+      font-size: 1.2em;
+    }
+
+    .subtitle {
+      font-size: 0.7em;
+    }
+
+    .quote {
+      font-size: 0.5em;
+    }
+
+    .attributon {
+      font-size: 0.5em;
     }
   }
 }
