@@ -26,7 +26,8 @@ For all sizes
 - [ ] make sure remote fonts are enabled
  - [ ] double check sizes are good for both fonts enabled/fonts disabled
    - media query?
-- [ ] img should have more padding / margin?
+- [ ] img should have more padding / margin in portrait/mobile mode
+- [ ] img should fill right side in landscape mobile mode
 - [ ] max width of quote in large landscape screens
 - [ ] subtitle should not go beyond picture
 - [ ] decrease space between quote and attribution
