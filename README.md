@@ -1,11 +1,13 @@
 Intro
 =====
 
-My first CSS project for freecodecamp: A tribute to Abbas Effendi (also known as Abdul-Baha), Who led the Baha'i community and taught that we are happier when we appreciate diversity and act with compassion
+My first CSS project for freecodecamp
 
 View on [Github Pages](https://syntapy.github.io/fcc_tribute/)
 
-Tested in Firefox 88 - 95, Chromium 96
+Implemented based in [figma design](https://www.figma.com/file/V2DberliY6Y7uoZTu7vYsV/Abbas-Effendi-Tribute?node-id=0%3A1&t=DEqw7dAmPYHP0N2k-1) I made
+
+Tested in Firefox 108 devtools
 
 Todo
 ====
@@ -21,22 +23,16 @@ Animation Approach
 ------------------
 
 For all sizes
-- [ ] desired text size...
-  - with remote font
-  - no remote font
-- [ ] no cutoff when scrolled to top
-  - image fills top view
-    - [ ] mobile animation #1
-  - quote is cutoff halfway
-    - [ ] mobile animation #1
-  - img + quote fills top view
-    - [ ] mobile animation #2
-  - mobile landscape mode
-    - has no cutoff
-    - [ ] mobile animation #3
-  - desktop view (landscape)
-    - [ ] multi-column body
-      - [ ] header in top left
+- [ ] make sure remote fonts are enabled
+ - [ ] double check sizes are good for both fonts enabled/fonts disabled
+   - media query?
+- [ ] img should have more padding / margin?
+- [ ] max width of quote in large landscape screens
+- [ ] subtitle should not go beyond picture
+- [ ] decrease space between quote and attribution
+- [ ] header should fill screen when scrolled to top
+  - [ ] quote should not be cut-off in smaller portrait modes
+- [ ] add tiny turqoise outline to picture
 
 Animation types
 - [ ] type 1
@@ -61,39 +57,6 @@ Animation types
   - Everything fades in on pg load
   - No fade in on switch to landscape
   - Nothing fades on scroll down
-
-Test Screen Sizes
-- [x] 320 x 480
-  - [x] Portrait
-  - [x] Landscape
-- [ ] 360 x 640
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 360 x 720
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 360 x 760
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 360 x 780
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 375 x 667
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 375 x 812
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 414 x 736
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 414 x 896
-  - [ ] Portrait
-  - [ ] Landscape
-- [ ] 768 x 1024
-- [ ] 1366 x 768
-- [ ] 1440 x 900
-- [ ] 1536 x 864
 
 Browsers
 - [ ] Firefox
