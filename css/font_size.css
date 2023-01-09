@@ -1,23 +1,19 @@
+main {
+  font-size: 1.0rem;
+}
+
 @media (orientation: portrait) {
   @media (min-height: 960px) {
     header {
       font-size: 3.0rem;
     }
 
-    .title {
-      font-size: 1.0em;
+    .quote {
+      font-size: 1.2rem;
     }
 
-    .subtitle {
-      font-size: 0.6em;
-    }
-
-    .quote{
-      font-size: 0.5em;
-    }
-
-    .attribution {
-      font-size: 0.8em;
+    h1 {
+      font-size: 1.4rem;
     }
   }
 
@@ -26,21 +22,31 @@
       font-size: 2.5rem;
     }
 
-    .title {
-      font-size: 1.0em;
+    .quote {
+      font-size: 1.2rem;
     }
 
-    .subtitle {
-      font-size: 0.6em;
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-height: 760px) {
+    header {
+      font-size: 2.5rem;
     }
 
     .quote {
-      font-size: 0.4em;
+      font-size: 1rem;
     }
 
-    .attribution {
-      font-size: 1.0em;
+    h1 {
+      font-size: 1.2rem;
     }
+  }
+
+  ul > li {
+    font-size: 1rem;
   }
 }
 
@@ -50,20 +56,8 @@
       font-size: 3.5rem;
     }
 
-    .title {
-      font-size: 1.0em;
-    }
-
-    .subtitle {
-      font-size: 0.6em;
-    }
-
     .quote {
-      font-size: 0.4em;
-    }
-
-    .attributon {
-      font-size: 0.8em;
+      font-size: 1.2rem;
     }
   }
 
@@ -72,32 +66,24 @@
       font-size: 2.5rem;
     }
 
-    .title {
-      font-size: 1.0em;
-    }
-
-    .subtitle {
-      font-size: 0.6em;
-    }
-
     .quote {
-      font-size: 0.4em;
+      font-size: 1.2rem;
     }
+  }
 
-    .attributon {
-      font-size: 0.8em;
-    }
+  h1 {
+    font-size: 1rem;
+  }
+
+  ul > li {
+    font-size: 1rem;
   }
 }
 
-main {
-  font-size: 0.8rem;
+.title {
+  font-size: 1.0em;
 }
 
-h1 {
-  font-size: 1rem;
-}
-
-ul > li {
-  font-size: 0.8rem;
+.subtitle {
+  font-size: 0.8em;
 }
