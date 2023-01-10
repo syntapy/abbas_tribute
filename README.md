@@ -23,6 +23,8 @@ Animation Approach
 ------------------
 
 For all sizes
+- [ ] screenshot tests
+- [ ] h1 should be title, h2s in main portion
 - [ ] make sure remote fonts are enabled
  - [ ] double check sizes are good for both fonts enabled/fonts disabled
    - media query?
